@@ -8,16 +8,17 @@
     <meta name="description" content="This is a tribute page dedicated to the late great, Kobe Bryant.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Kobe Bryant</title>
 </head>
 <body>
-    <header>
-        <h1 id="title">Kobe Bean Bryant</h1>
-        <h2>The Black Mamba</h2>
+    <header id="top">
+        <h1 class="title heading">Kobe Bean Bryant</h1>
+        <h2 class="title subtitle">The Black Mamba</h2>
     </header>
     <main>
-        <img src="https://s3.amazonaws.com/kulturehub-blob/uploads/2021/01/Kobe-Bryant-photographed-by-Andrew-D.-Bernstein-after-defeating-the-Philadelphia-76ers-in-Game-Five-of-the-NBA-Finals-in-Philadelphia-PA-June-15-2001-819x1024.jpg" alt="Kobe Bryan Championship photo">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, magnam? Numquam excepturi vitae dolorum voluptate, et consequatur? Maxime non autem a nulla harum nostrum similique vero obcaecati sunt suscipit repellat earum inventore odio magni, culpa aut quisquam veritatis? Corporis rem voluptas libero quas qui eaque autem doloremque voluptates quae quia quam adipisci esse laboriosam voluptatum nobis corrupti harum maxime, magnam vel nostrum quos deserunt. Optio nostrum, fugiat, accusantium maiores voluptates eos sapiente aut soluta doloremque odit dicta facilis, consequuntur nesciunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quia ducimus enim! Suscipit omnis autem labore culpa officia saepe dicta dignissimos hic vitae earum distinctio vero ut dolore consequuntur, numquam, quaerat modi quo quam. Sequi ex voluptatibus praesentium expedita laudantium, assumenda maiores itaque perferendis dolorum eos provident eligendi facere dolores eius dolor veritatis quia cumque, animi asperiores? Repellat consequatur consequuntur eligendi nam doloremque quisquam qui quis nisi. Iusto facere, dolorum ad, modi voluptate adipisci a dolores, repudiandae sequi sint rem.</p>
+        <img id="img1" src="https://s3.amazonaws.com/kulturehub-blob/uploads/2021/01/Kobe-Bryant-photographed-by-Andrew-D.-Bernstein-after-defeating-the-Philadelphia-76ers-in-Game-Five-of-the-NBA-Finals-in-Philadelphia-PA-June-15-2001-819x1024.jpg" alt="Kobe Bryan Championship photo" height="800">
+        <p class="paragraph paragraph1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, magnam? Numquam excepturi vitae dolorum voluptate, et consequatur? Maxime non autem a nulla harum nostrum similique vero obcaecati sunt suscipit repellat earum inventore odio magni, culpa aut quisquam veritatis? Corporis rem voluptas libero quas qui eaque autem doloremque voluptates quae quia quam adipisci esse laboriosam voluptatum nobis corrupti harum maxime, magnam vel nostrum quos deserunt. Optio nostrum, fugiat, accusantium maiores voluptates eos sapiente aut soluta doloremque odit dicta facilis, consequuntur nesciunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quia ducimus enim! Suscipit omnis autem labore culpa officia saepe dicta dignissimos hic vitae earum distinctio vero ut dolore consequuntur, numquam, quaerat modi quo quam. Sequi ex voluptatibus praesentium expedita laudantium, assumenda maiores itaque perferendis dolorum eos provident eligendi facere dolores eius dolor veritatis quia cumque, animi asperiores? Repellat consequatur consequuntur eligendi nam doloremque quisquam qui quis nisi. Iusto facere, dolorum ad, modi voluptate adipisci a dolores, repudiandae sequi sint rem.</p>
         <div id="accomplishments-container">
             <div>
                 <ul>
@@ -29,20 +30,20 @@
                     <li>2x Finals MVP</li>
                 </ul>
             </div>
-            <div><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Kobe_Bryant_8.jpg" alt="Picture of Kobe Bryant"</div>
+            <div><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Kobe_Bryant_8.jpg" alt="Picture of Kobe Bryant" height="500"></div>
         </div>
-        <p>"If you do not believe in yourself who will?"<span><br>-Kobe Bryant</span></p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/OTTWedyp37o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>For more info on Kobe and his life click the button below.</p>
-        <button>Click Here</button>
+        <p id="quote">"If you do not believe in yourself who will?"<span style="font-weight: normal; font-style: italic;"><br><br>-Kobe Bryant</span></p>
+        <div id="video"><iframe width="1000" height="500" " src="https://www.youtube.com/embed/OTTWedyp37o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <p class="paragraph paragraph2">For more info on Kobe and his life click the button below.</p>
+        <button><a href="https://en.wikipedia.org/wiki/Kobe_Bryant">Click Here</a></button>
     </main>
     <footer>
-        <p>To go back to the top of the page <a href="#">Click Here</a></p>
-        <p>Follow His Socials</p>
+        <button id="toTop"><a href="#top"><i class="material-icons">arrow_upward</i></a></button>
+        <p style="color: white; margin-top: 50px; font-size: 20px; text-decoration: underline;">Follow His Socials</p>
         <div id="social-media">
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/kobebryant/?hl=en" class="fa fa-instagram"></a>
+            <a href="https://twitter.com/kobebryant" class="fa fa-twitter"></a>
+            <a href="https://www.youtube.com/watch?v=q6iwKGA6bEs" class="fa fa-youtube"></a>
         </div>
     </footer>
 </body>
